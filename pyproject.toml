@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "nuclei"
+version = "0.2.6"
+description = ""
+authors = ["Wizock <silent.death3500@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask-Caching = "^1.10.1"
+Pillow = "^9.1.0"
+types-six = "^1.16.15"
+types-requests = "^2.27.25"
+typer = "^0.4.1"
+ffmpeg-python = "^0.2.0"
+asyncffmpeg = "^1.2.0"
+asynccpu = "^1.2.2"
+supertokens-python = "^0.8.2"
+ipfshttpclient = "^0.7.0"
+
+[tool.poetry.dev-dependencies]
+flask-limiter = {git = "https://github.com/alisaifee/flask-limiter"}
+flask-kafka = "^0.0.3"
+Flask-httpretty = "^1.3.0"
+Flask = "^2.1.2"
+Flask-ElasticUtils = "^0.1.7"
+celery = "^5.2.6"
+supertokens-flask = "^1.4.1"
+Flask-Admin = "^1.6.0"
+0-core-client = "^1.1.0-alpha.8"
+Flask-Caching = "^1.10.1"
+Flask-Cors = "^3.0.10"
+Flask-DebugToolbar = "^0.13.1"
+flask-simple-user = "^0.0.10"
+user-sdk = "^0.0.58"
+Flask-Security-Too = "^4.1.4"
+flask-praetorian = "^1.3.0"
+flask-blacklist = "^0.0.1"
+gunicorn = "^20.1.0"
+flask-redis = "^0.4.0"
+Flask-Celery = "^2.4.3"
+Flask-Mail = "^0.9.1"
+Flask-Migrate = "^3.1.0"
+Flask-SocketIO = "flask_sqlalchemy"
+black = {version = "^22.3.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
